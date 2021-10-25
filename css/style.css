@@ -18,8 +18,9 @@
 
 body {
     font-family: 'Red Hat Text', sans-serif;
-    width: 375px;
+    /* width: 375px; */
     height: 100vh;
+    background-image: linear-gradient(var(--very-dark-blue), rgba(40, 22, 58, 0.89));
 }
 
 .container {
@@ -52,15 +53,74 @@ body {
     padding: 15%;
     margin-top: 30%;
     text-align: center;
+    color: var(--white);
+}
+
+.container .timer {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.container .timer > span {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 3px 5px var(--very-dark-blue-black);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--soft-red);
+    position: relative;
+    z-index: 99;
+}
+
+.container .timer > span::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 35px;
+    background-color: var(--very-dark-blue);
+    background-color: var(--dark-desaturated-blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+
+.container .timer > span::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    background-color: var(--dark-desaturated-blue);
+    top: 50%;
+    left: 0;
+    opacity: .7;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.container .timer > p {
+    font-size: 8px;
+    text-transform: uppercase;
+    color: var(--grayish-blue);
+    letter-spacing: 2px;
 }
 
 .container .bg-mountain {
     position: absolute;
     background-image: url(../images/pattern-hills.svg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     z-index: 1;
     bottom: 0;
-    height: 23vh;
+    height: 22vh;
     width: 100%;
 }
 
@@ -80,6 +140,10 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    color: var(--grayish-blue);
 }
 
 .attribution a { 
