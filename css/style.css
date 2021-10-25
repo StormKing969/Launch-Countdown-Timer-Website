@@ -1,0 +1,87 @@
+:root {
+    /* Primary Color */
+    --grayish-blue: hsl(237, 18%, 59%);
+    --soft-red: hsl(345, 95%, 68%);
+
+    /* Neutral Color */
+    --white: hsl(0, 0%, 100%);
+    --dark-desaturated-blue: hsl(236, 21%, 26%);
+    --very-dark-blue: hsl(235, 16%, 14%);
+    --very-dark-blue-black: hsl(234, 17%, 12%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    width: 375px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Vertically Centered */
+    align-items: center;
+    /* Horicontally Centered */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+}
+
+.container .bg-stars {
+    position: absolute;
+    background-image: url(../images/bg-stars.svg);
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 70vh;
+    width: 100%;
+}
+
+.container .title {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 15%;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.container .bg-mountain {
+    position: absolute;
+    background-image: url(../images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    z-index: 1;
+    bottom: 0;
+    height: 23vh;
+    width: 100%;
+}
+
+.container .bottom-icon {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 5%;
+    z-index: 999;
+}
+
+.container .bottom-icon > div {
+    margin: 0 15px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
