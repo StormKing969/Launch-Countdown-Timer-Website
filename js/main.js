@@ -19,5 +19,9 @@ function counter() {
     $("#seconds").html(seconds_left);
 
     timer--;
-    // console.log(timer);
+    
 }
+
+$(".days").click(function() {
+    $(".top-half").rotate(180);
+});
