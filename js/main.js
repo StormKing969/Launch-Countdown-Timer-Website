@@ -1,7 +1,7 @@
 const days = 8;
 const hours = 23;
 const minutes = 55;
-const seconds = 41;
+const seconds = 12;
 
 var timer = (days * 86400) + (hours * 3600) + (minutes * 60) + seconds;
 

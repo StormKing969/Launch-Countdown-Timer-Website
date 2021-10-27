@@ -40,6 +40,7 @@ body {
     position: absolute;
     background-image: url(../images/bg-stars.svg);
     background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
     height: 70vh;
     width: 100%;
@@ -247,6 +248,7 @@ body {
     position: absolute;
     background-image: url(../images/pattern-hills.svg);
     background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
     bottom: 0;
     height: 20vh;
@@ -266,6 +268,20 @@ body {
     margin: 0 15px;
 }
 
+.container .bottom-icon > div .overlay{
+    position: absolute;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
+.container .bottom-icon > div .overlay:hover{
+    background-color: var(--soft-red);
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0.5;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -277,4 +293,184 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 600px) {
+    .container .title {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+        top: 0;
+    }
+
+    .container .timer {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 25%;
+        column-gap: 20px;
+    }
+
+    .container .timer > .box {
+        width: 140px;
+        height: 140px;
+        font-size: 65px;
+    }
+
+    /* =================================================== */
+.container .timer .days .top-half {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .days .top-half > span{
+    top: 38%;
+}
+
+.container .timer .days .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .days .bottom-half > span{
+    bottom: 38%;
+}
+/* =================================================== */
+
+/* =================================================== */
+.container .timer .hours .top-half {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .hours .top-half > span{
+    top: 38%;
+}
+
+.container .timer .hours .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .hours .bottom-half > span{
+    bottom: 38%;
+}
+/* =================================================== */
+
+/* =================================================== */
+.container .timer .minutes .top-half {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .minutes .top-half > span{
+    top: 38%;
+}
+
+.container .timer .minutes .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .minutes .bottom-half > span{
+    bottom: 38%;
+}
+/* =================================================== */
+
+/* =================================================== */
+.container .timer .seconds .top-half {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .seconds .top-half > span{
+    top: 38%;
+}
+
+.container .timer .seconds .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .seconds .bottom-half > span{
+    bottom: 38%;
+}
+/* =================================================== */
+
+}
+
+@media (min-width: 755px) {
+    .container .title {
+        /* margin-top: 10%; */
+        top: -5%;
+    }
+}
+
+@media (min-width: 910px) {
+    .container .title {
+        top: -10%;
+    }
+}
+
+@media (min-width: 1030px) {
+    .container .title {
+        top: -15%;
+    }
+}
+
+@media (min-width: 1160px) {
+    .container .title {
+        top: -15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container .title {
+        margin-top: 90px;
+        top: -15%;
+    }
+}
+
+@media (min-width: 1930px) {
+    .container .title {
+        margin-top: 30px;
+        top: -15%;
+    }
 }
