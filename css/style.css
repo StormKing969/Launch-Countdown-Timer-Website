@@ -64,12 +64,12 @@ body {
     text-align: center;
 }
 
-.container .timer > span {
+.container .timer > .box {
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     box-shadow: 2px 3px 5px var(--very-dark-blue-black);
-    background-color: var(--dark-desaturated-blue);
+    background-color: var(--very-dark-blue-black);
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -77,36 +77,163 @@ body {
     font-weight: 700;
     color: var(--soft-red);
     position: relative;
-<<<<<<< Updated upstream
-    z-index: 99;
 }
 
-.container .timer > span::before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 35px;
-    background-color: var(--very-dark-blue);
+/* =================================================== */
+.container .timer .days .top-half {
     position: absolute;
     top: 0;
-    left: 0;
-    opacity: 0.4;
+    height: 40px;
+    width: 100%;
     border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
 }
 
-/* .container .timer > span::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 35px;
+.container .timer .days .top-half > span{
     position: absolute;
-    background-color: var(--dark-desaturated-blue);
-    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
     left: 0;
-    opacity: .7;
-    z-index: 1;
+    right: 0;
+    top: 43%;
+}
+
+.container .timer .days .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 100%;
     border-radius: 5px;
-} */
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .days .bottom-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 43%;
+}
+/* =================================================== */
+
+/* =================================================== */
+.container .timer .hours .top-half {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .hours .top-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 43%;
+}
+
+.container .timer .hours .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .hours .bottom-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 43%;
+}
+/* =================================================== */
+
+/* =================================================== */
+.container .timer .minutes .top-half {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .minutes .top-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 43%;
+}
+
+.container .timer .minutes .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .minutes .bottom-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 43%;
+}
+/* =================================================== */
+
+/* =================================================== */
+.container .timer .seconds .top-half {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+    opacity: 0.6;
+}
+
+.container .timer .seconds .top-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 43%;
+}
+
+.container .timer .seconds .bottom-half {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+.container .timer .seconds .bottom-half > span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 43%;
+}
+/* =================================================== */
 
 .container .timer > p {
     font-size: 8px;
