@@ -40,5 +40,9 @@ function counter() {
 
 
     timer--;
-    // console.log(timer);
+    
 }
+
+// $(".days").click(function() {
+//     $(".top-half").rotate(180);
+// });
