@@ -80,32 +80,7 @@ body {
     z-index: 99;
 }
 
-.container .timer > span::before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 35px;
-    background-color: var(--very-dark-blue);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.4;
-    border-radius: 5px;
-}
 
-/* .container .timer > span::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 35px;
-    position: absolute;
-    background-color: var(--dark-desaturated-blue);
-    top: 50%;
-    left: 0;
-    opacity: .7;
-    z-index: 1;
-    border-radius: 5px;
-} */
 
 .container .timer > p {
     font-size: 8px;
