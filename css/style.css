@@ -207,6 +207,7 @@ body {
     border-radius: 5px;
     background-color: var(--dark-desaturated-blue);
     opacity: 0.6;
+    transition: all ease-in;
 }
 
 .container .timer .seconds .top-half > span{
@@ -319,120 +320,120 @@ body {
     }
 
     /* =================================================== */
-.container .timer .days .top-half {
-    position: absolute;
-    top: 0;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-    opacity: 0.6;
-}
+    .container .timer .days .top-half {
+        position: absolute;
+        top: 0;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+        opacity: 0.6;
+    }
 
-.container .timer .days .top-half > span{
-    top: 38%;
-}
+    .container .timer .days .top-half > span{
+        top: 38%;
+    }
 
-.container .timer .days .bottom-half {
-    position: absolute;
-    top: 50%;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-}
+    .container .timer .days .bottom-half {
+        position: absolute;
+        top: 50%;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+    }
 
-.container .timer .days .bottom-half > span{
-    bottom: 38%;
-}
-/* =================================================== */
+    .container .timer .days .bottom-half > span{
+        bottom: 38%;
+    }
+    /* =================================================== */
 
-/* =================================================== */
-.container .timer .hours .top-half {
-    position: absolute;
-    top: 0;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-    opacity: 0.6;
-}
+    /* =================================================== */
+    .container .timer .hours .top-half {
+        position: absolute;
+        top: 0;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+        opacity: 0.6;
+    }
 
-.container .timer .hours .top-half > span{
-    top: 38%;
-}
+    .container .timer .hours .top-half > span{
+        top: 38%;
+    }
 
-.container .timer .hours .bottom-half {
-    position: absolute;
-    top: 50%;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-}
+    .container .timer .hours .bottom-half {
+        position: absolute;
+        top: 50%;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+    }
 
-.container .timer .hours .bottom-half > span{
-    bottom: 38%;
-}
-/* =================================================== */
+    .container .timer .hours .bottom-half > span{
+        bottom: 38%;
+    }
+    /* =================================================== */
 
-/* =================================================== */
-.container .timer .minutes .top-half {
-    position: absolute;
-    top: 0;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-    opacity: 0.6;
-}
+    /* =================================================== */
+    .container .timer .minutes .top-half {
+        position: absolute;
+        top: 0;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+        opacity: 0.6;
+    }
 
-.container .timer .minutes .top-half > span{
-    top: 38%;
-}
+    .container .timer .minutes .top-half > span{
+        top: 38%;
+    }
 
-.container .timer .minutes .bottom-half {
-    position: absolute;
-    top: 50%;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-}
+    .container .timer .minutes .bottom-half {
+        position: absolute;
+        top: 50%;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+    }
 
-.container .timer .minutes .bottom-half > span{
-    bottom: 38%;
-}
-/* =================================================== */
+    .container .timer .minutes .bottom-half > span{
+        bottom: 38%;
+    }
+    /* =================================================== */
 
-/* =================================================== */
-.container .timer .seconds .top-half {
-    position: absolute;
-    top: 0;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-    opacity: 0.6;
-}
+    /* =================================================== */
+    .container .timer .seconds .top-half {
+        position: absolute;
+        top: 0;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+        opacity: 0.6;
+    }
 
-.container .timer .seconds .top-half > span{
-    top: 38%;
-}
+    .container .timer .seconds .top-half > span{
+        top: 38%;
+    }
 
-.container .timer .seconds .bottom-half {
-    position: absolute;
-    top: 50%;
-    height: 70px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: var(--dark-desaturated-blue);
-}
+    .container .timer .seconds .bottom-half {
+        position: absolute;
+        top: 50%;
+        height: 70px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: var(--dark-desaturated-blue);
+    }
 
-.container .timer .seconds .bottom-half > span{
-    bottom: 38%;
-}
-/* =================================================== */
+    .container .timer .seconds .bottom-half > span{
+        bottom: 38%;
+    }
+    /* =================================================== */
 
 }
 

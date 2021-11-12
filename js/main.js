@@ -34,9 +34,6 @@ function counter() {
 
     $("#seconds-1").html(seconds_left);
     $("#seconds-2").html(seconds_left);
-
-
-
+     
     timer--;
-    
 }
