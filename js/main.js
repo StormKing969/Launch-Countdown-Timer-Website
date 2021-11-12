@@ -1,9 +1,7 @@
-const days = 8;
-const hours = 23;
-const minutes = 55;
-const seconds = 12;
+const endDate = new Date("January 01, 2022 00:00:00").getTime();
+const now = new Date().getTime();
 
-var timer = (days * 86400) + (hours * 3600) + (minutes * 60) + seconds;
+var timer = (endDate - now) / 1000;
 
 setInterval(counter, 1000);
 
@@ -20,7 +18,7 @@ function counter() {
     if (minutes_left < 10) {
         minutes_left = "0" + minutes_left;
     }
-    var seconds_left = timer % 60;
+    var seconds_left =  Math.floor(timer % 60);
     if (seconds_left < 10) {
         seconds_left = "0" + seconds_left;
     }
